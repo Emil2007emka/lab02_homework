@@ -4,11 +4,12 @@
 #include <iostream>
 #include <string>
 
-int main()
+int
+main()
 {
-    std::string name;  // переменная для хранения имени
-    std::cout << "Enter your name: ";  // prompt for input
-    std::cin >> name;  // read user's name
-    std::cout << "Hello world from " << name << std::endl;  // output greeting
-    return 0;
+  std::string name;                 // переменная для хранения имени
+  std::cout << "Enter your name: "; // prompt for input
+  std::cin >> name;                 // read user's name
+  std::cout << "Hello world from " << name << std::endl; // output greeting
+  return 0;
 }
